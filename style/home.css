@@ -1,0 +1,41 @@
+body {
+  background-color: #2DC071;
+}
+
+body main {
+  background-image: url(/img77/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  body main {
+    background-image: none;
+  }
+}
+
+#section {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 55px;
+  font-size: 25px;
+}
+
+#section .text {
+  text-align: center;
+  color: #fff;
+}
+
+#section .text button {
+  border-radius: 37px;
+  border: 1px solid var(--light-gray-1, #FAFAFA);
+  padding: 25px 25px;
+  background-color: #2DC071;
+  color: #fff;
+}
+/*# sourceMappingURL=home.css.map */

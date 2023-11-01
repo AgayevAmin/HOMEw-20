@@ -1,0 +1,32 @@
+@import "./mixins";
+
+body{
+    
+    background-color: #2DC071;
+    main{
+        background-image: url(/img77/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include mobile {
+        background-image: none;
+    }
+    }
+}
+#section{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;   
+    line-height: 55px;
+    font-size: 25px;
+    .text{
+        text-align: center;
+        color:#fff;
+        button{
+            border-radius: 37px;
+            border: 1px solid var(--light-gray-1, #FAFAFA);
+            padding: 25px 25px;
+            background-color: #2DC071;
+            color: #fff;
+        }
+    }
+}
